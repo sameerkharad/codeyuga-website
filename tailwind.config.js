@@ -1,11 +1,14 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}", // adjust paths as needed
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        caprasimo: ['"Caprasimo"', 'cursive'],
+      },
+    },
   },
   plugins: [],
 }
