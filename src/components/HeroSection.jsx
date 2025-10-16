@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <section
       id="home"
-      className="flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-purple-50 px-6 md:px-12 py-16 md:py-20 lg:py-24 pt-32 md:pt-36 lg:pt-40 relative overflow-hidden"
+      className="relative flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-purple-50 px-6 md:px-12 h-screen overflow-hidden pt-20 md:pt-24 lg:pt-28"
     >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center max-w-7xl mx-auto w-full">
         
@@ -60,7 +60,6 @@ const HeroSection = () => {
           <div className="absolute bottom-32 left-20 w-5 h-5 bg-pink-500 rounded-sm opacity-70 animate-bounce-slow"></div>
           <div className="absolute top-10 left-1/2 w-10 h-10 border border-blue-500 rounded-md opacity-60 animate-spin-slow"></div>
           <div className="absolute bottom-12 right-1/3 w-12 h-12 border border-purple-500 rounded-md opacity-50 animate-spin-slow"></div>
-
         </div>
       </div>
     </section>
