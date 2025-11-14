@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import supabase from "../supabaseClient.js";
+import supabase from "../supabaseClient";
 
 const ContactForm = () => {
   const [loading, setLoading] = useState(false);
