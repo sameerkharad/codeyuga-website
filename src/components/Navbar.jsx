@@ -16,12 +16,12 @@ const Navbar = () => {
 
   return (
     <nav
-    className={`fixed w-full z-50 transition-colors duration-500 ${
-      scrolled ? "bg-blue-700 shadow-md" : "bg-blue-500"
-    }`}
-      // className={`fixed w-full z-50 transition-colors duration-500 ${
-      //   scrolled ? "bg-gray-900 shadow-md" : "bg-transparent"
-      // }`}
+    // className={`fixed w-full z-50 transition-colors duration-500 ${
+    //   scrolled ? "bg-blue-700 shadow-md" : "bg-blue-500"
+    // }`}
+      className={`fixed w-full z-50 transition-colors duration-500 ${
+        scrolled ? "bg-gray-900 shadow-md" : "bg-transparent"
+      }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
         {/* Logo */}
